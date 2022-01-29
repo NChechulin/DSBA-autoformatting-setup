@@ -56,3 +56,7 @@ clang-format --style=file yourfile.cpp > yourfile.cpp
 
 You only have to change `yourfile` to your actual filename :)
 
+## PS
+
+- Huge thanks to [Miv2nir](https://github.com/Miv2nir) for adapting the clang-format config for Windows and for persistent struggle with Qt configuration
+- Don't hesitate to give my other repos a star I really need them...
