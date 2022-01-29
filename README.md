@@ -3,9 +3,15 @@ A small guide on setting up an autoformatter for DSBA C++ course
 
 ## Qt Creator
 
+1. Download `qtcreator.xml` file from this repo
+2. Go to tools -> options -> C++ -> code style
+3. Click import and choose the downloaded file
+
+<!--
 1. Download `clang-config` file from this repo
 2. Go to Qt creator -> settings -> ... -> code style
 3. Click import and choose the downloaded `clang-config` file
+-->
 
 ![](assets/qtcreator.png)
 
