@@ -3,17 +3,20 @@ A small guide on setting up an autoformatter for DSBA C++ course
 
 ## Qt Creator
 
-1. Download `qtcreator.xml` file from this repo
-2. Go to tools -> options -> C++ -> code style
-3. Click import and choose the downloaded file
-
-<!--
-1. Download `clang-config` file from this repo
-2. Go to Qt creator -> settings -> ... -> code style
-3. Click import and choose the downloaded `clang-config` file
--->
+1. Go to Help -> About plugins -> find a plugin named `Beautifier`
+2. Enable it and reload Qt Creator
+3. Go to tools -> options -> Beautifier
+4. In "general" tab set the default tool to ClangFormat
+5. Go to "Clang Format" tab
+6. In the options tab click on "use customized style" and add a new style
+7. Paste contents of `clang-config` in the first textbox
 
 ![](assets/qtcreator.png)
+
+8. Go to options -> Environment -> Keyboard
+9. Find the "FormatFile" action in "ClangFormat" category (it's important) and set a shortcut for formatting the whole file
+
+![](assets/qtshortcut.png)
 
 ## CLion
 
