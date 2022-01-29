@@ -3,6 +3,7 @@ A small guide on setting up an autoformatter for DSBA C++ course
 
 ## Qt Creator
 
+0. Install Clang: [Windows](https://llvm.org/builds/), for other OSes plz google
 1. Go to Help -> About plugins -> find a plugin named `Beautifier`
 2. Enable it and reload Qt Creator
 3. Go to tools -> options -> Beautifier
