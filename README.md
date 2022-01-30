@@ -10,7 +10,7 @@ A small guide on setting up an autoformatter for DSBA C++ course
 4. In "general" tab set the default tool to ClangFormat
 5. Go to "Clang Format" tab
 6. In the options tab click on "use customized style" and add a new style
-7. Paste contents of `clang-config` in the first textbox
+7. Paste contents of `clang-config` file in the first textbox (the file is in this repository)
 
 ![](assets/qtcreator.png)
 
